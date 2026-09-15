@@ -1,59 +1,87 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚗 Vehicle Breakdown Assistance System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A web-based Vehicle Breakdown Assistance System developed using Laravel and MySQL to help drivers request roadside assistance and connect with mechanics.
 
-## About Laravel
+## 📌 Project Overview
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The Vehicle Breakdown Assistance System provides an online platform for drivers to request assistance when their vehicles experience breakdowns.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The system supports three main user roles:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- 👤 Driver
+- 🔧 Mechanic
+- 🛡️ Administrator
 
-## Learning Laravel
+## ✨ Main Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### 👤 Driver
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Driver registration and login
+- Submit vehicle breakdown requests
+- Enter vehicle and problem details
+- Provide breakdown location
+- View request status
+- Communicate with mechanics
+- Submit feedback
 
-## Laravel Sponsors
+### 🔧 Mechanic
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- Mechanic registration and login
+- Receive breakdown requests
+- View driver and vehicle details
+- Accept or decline service requests
+- Update service status
+- Manage service requests
 
-### Premium Partners
+### 🛡️ Administrator
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- Manage drivers and mechanics
+- Verify mechanics
+- Monitor breakdown requests
+- Manage system activities
+- Manage feedback
 
-## Contributing
+## 🗺️ Location Features
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+The system uses **Leaflet.js** to provide an interactive map and location-based assistance features.
 
-## Code of Conduct
+## 📱 Progressive Web App
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+The application includes **Progressive Web App (PWA)** support to provide a mobile-friendly experience for drivers who need roadside assistance.
 
-## Security Vulnerabilities
+## 🛠️ Technologies Used
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+| Technology | Purpose |
+|---|---|
+| PHP | Backend programming |
+| Laravel | Web application framework |
+| MySQL | Database |
+| HTML5 | Frontend structure |
+| CSS3 | Styling |
+| JavaScript | Client-side functionality |
+| Bootstrap 5 | Responsive UI |
+| Leaflet.js | Interactive maps |
+| Git & GitHub | Version control |
 
-## License
+## 🗄️ Database
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+MySQL is used to store and manage:
+
+- User information
+- Vehicle details
+- Breakdown requests
+- Mechanic information
+- Request statuses
+- Feedback
+
+## 🎯 Project Goal
+
+The main goal of this project is to provide a convenient and efficient platform for drivers to request roadside assistance and connect with suitable mechanics during vehicle breakdown situations.
+
+## 👨‍💻 Developer
+
+**Sithija Shehan Jayathilaka**
+
+- GitHub: [sithijashehan](https://github.com/sithijashehan)
+- LinkedIn: [Sithija Shehan](https://www.linkedin.com/in/sithija-shehan-047a65325)
+- Email: [sithijashehanja@gmail.com](mailto:sithijashehanja@gmail.com)
